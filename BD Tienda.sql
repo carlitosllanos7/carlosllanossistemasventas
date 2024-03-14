@@ -46,7 +46,7 @@ CREATE TABLE USUARIO (
 IDUSUARIO INT IDENTITY (1,1) NOT NULL,
 IDPERSONA INT NOT NULL,
 NOMBREUSER NVARCHAR (50) NOT NULL,
-CONTRASEÑA NVARCHAR (50) NOT NULL,
+CONTRASENA NVARCHAR (50) NOT NULL,
 FECHAREG DATETIME NOT NULL,
 PRIMARY KEY (IDUSUARIO),
 FOREIGN KEY (IDPERSONA) REFERENCES PERSONA (IDPERSONA)
@@ -152,55 +152,55 @@ FOREIGN KEY (IDPRODUCTO) REFERENCES PRODUCTO (IDPRODUCTO),
 
 
 insert into persona values('Pedro' ,'Fernandez','+59172979377','5744158','pedro@gmail.com','Activo');
-insert into persona values('Adrián' ,'Pérez' ,'+59161234567' ,'1234567' ,'adrian@gmail.com','Activo');
-insert into persona values('Belén','González' ,'+59173456789' ,'87654321' ,'belen@gmail.com','Activo');
-insert into persona values('Ana' ,'Rodríguez' ,'+59169876543' ,'2345678' ,'ana@gmail.com','Inactivo');
-insert into persona values('Bruno' ,'López' ,'+59176213456' ,'76543210' ,'bruno@gmail.com','Activo');
-insert into persona values('Carla' ,'García' ,'+59164738291' ,'3456789' ,'carla@gmail.com','Activo');
-insert into persona values('Diego' ,'Sánchez' ,'+59171345678' ,'65432109' ,'diego@gmail.com','Activo');
-insert into persona values('Elena' ,'Martínez' ,'+59168912345' ,'4567890' ,'elena@gmail.com','Activo');
-insert into persona values('Fabián','Gómez' ,'+59167483921' ,'54321098' ,'fabian@gmail.com','Activo');
-insert into persona values('Gloria' ,'Díaz' ,'+59176294837' ,'5678901' ,'gloria@gmail.com','Inactivo');
+insert into persona values('Adri n' ,'P rez' ,'+59161234567' ,'1234567' ,'adrian@gmail.com','Activo');
+insert into persona values('Bel n','Gonz lez' ,'+59173456789' ,'87654321' ,'belen@gmail.com','Activo');
+insert into persona values('Ana' ,'Rodr guez' ,'+59169876543' ,'2345678' ,'ana@gmail.com','Inactivo');
+insert into persona values('Bruno' ,'L pez' ,'+59176213456' ,'76543210' ,'bruno@gmail.com','Activo');
+insert into persona values('Carla' ,'Garc a' ,'+59164738291' ,'3456789' ,'carla@gmail.com','Activo');
+insert into persona values('Diego' ,'S nchez' ,'+59171345678' ,'65432109' ,'diego@gmail.com','Activo');
+insert into persona values('Elena' ,'Mart nez' ,'+59168912345' ,'4567890' ,'elena@gmail.com','Activo');
+insert into persona values('Fabi n','G mez' ,'+59167483921' ,'54321098' ,'fabian@gmail.com','Activo');
+insert into persona values('Gloria' ,'D az' ,'+59176294837' ,'5678901' ,'gloria@gmail.com','Inactivo');
 insert into persona values('Hugo' ,'Ruiz' ,'+59163729184' ,'43210987' ,'hugo@gmail.com','Activo');
 insert into persona values('Irene' ,'Torrez' ,'+59172836491' ,'6789012' ,'irene@gmail.com','Inactivo');
 insert into persona values('Jorge' ,'Morales' ,'+59169485732' ,'32109876' ,'jorge@gmail.com','Activo');
 insert into persona values('Karen' ,'Vargas' ,'+59161293847' ,'7890123' ,'karen@gmail.com','Activo');
 insert into persona values('Luis' ,'Castro' ,'+59174321658' ,'21098765' ,'luis@gmail.com','Activo');
-insert into persona values('María' ,'Ramírez' ,'+59168749321' ,'8901234' ,'maria@gmail.com','Activo');
-insert into persona values('Nicolás' ,'Flores' ,'+59165432198' ,'10987654' ,'nicolas@gmail.com','Activo');
+insert into persona values('Mar a' ,'Ram rez' ,'+59168749321' ,'8901234' ,'maria@gmail.com','Activo');
+insert into persona values('Nicol s' ,'Flores' ,'+59165432198' ,'10987654' ,'nicolas@gmail.com','Activo');
 insert into persona values('Olivia' ,'Romero' ,'+59172938475' ,'9012345' ,'olivia@gmail.com','Inactivo');
 insert into persona values('Pablo' ,'Ortiz' ,'+59169384752' ,'98765432' ,'pablo@gmail.com','Activo');
-insert into persona values('Emma' ,'Álvarez' ,'+59161472583' ,'0123456' ,'emma@gmail.com','Inactivo');
-insert into persona values('Raúl' ,'Cruz' ,'+59174839265' ,'87654321' ,'raul@gmail.com','Activo');
+insert into persona values('Emma' ,' lvarez' ,'+59161472583' ,'0123456' ,'emma@gmail.com','Inactivo');
+insert into persona values('Ra l' ,'Cruz' ,'+59174839265' ,'87654321' ,'raul@gmail.com','Activo');
 insert into persona values('Sonia' ,'Herrera' ,'+59168294731' ,'12345678' ,'sonia@gmail.com','Activo');
-insert into persona values('Tomás' ,'Soto' ,'+59165837492' ,'2345678' ,'tomas@gmail.com','Activo');
-insert into persona values('Úrsula' ,'Jiménez' ,'+59172648395' ,'76543210' ,'ursula@gmail.com','Activo');
-insert into persona values('Víctor' ,'Reyes' ,'+59169123487' ,'6543210' ,'victor@gmail.com','Activo');
+insert into persona values('Tom s' ,'Soto' ,'+59165837492' ,'2345678' ,'tomas@gmail.com','Activo');
+insert into persona values(' rsula' ,'Jim nez' ,'+59172648395' ,'76543210' ,'ursula@gmail.com','Activo');
+insert into persona values('V ctor' ,'Reyes' ,'+59169123487' ,'6543210' ,'victor@gmail.com','Activo');
 insert into persona values('Wendy' ,'Moreno' ,'+59161728394' ,'34567890' ,'wendy@gmail.com','Activo');
-insert into persona values('Xavier' ,'Núñez' ,'+59173948572' ,'5432109' ,'xavier@gmail.com','Activo');
+insert into persona values('Xavier' ,'N  ez' ,'+59173948572' ,'5432109' ,'xavier@gmail.com','Activo');
 insert into persona values('Yolanda' ,'Medina' ,'+59168572934' ,'4567890' ,'yolanda@gmail.com','Inactivo');
-insert into persona values('Zacarías' ,'Muñoz' ,'+59165394827' ,'43210987' ,'zacarias@gmail.com','Activo');
-insert into persona values('Abel' ,'Ríos' ,'+59172483916' ,'5678901' ,'abel@gmail.com','Activo');
+insert into persona values('Zacar as' ,'Mu oz' ,'+59165394827' ,'43210987' ,'zacarias@gmail.com','Activo');
+insert into persona values('Abel' ,'R os' ,'+59172483916' ,'5678901' ,'abel@gmail.com','Activo');
 insert into persona values('Bianca' ,'Rojas' ,'+59169217483' ,'32109876' ,'bianca@gmail.com','Activo');
-insert into persona values('César' ,'Salazar' ,'+59167123456' ,'6789012' ,'cesar@gmail.com','Inactivo');
-insert into persona values('Dalia' ,'Suárez' ,'+59176345678' ,'21098765' ,'dalia@gmail.com','Inactivo');
-insert into persona values('Ernesto' ,'Velásquez' ,'+59169786543' ,'7890123' ,'ernesto@gmail.com','Inactivo');
+insert into persona values('C sar' ,'Salazar' ,'+59167123456' ,'6789012' ,'cesar@gmail.com','Inactivo');
+insert into persona values('Dalia' ,'Su rez' ,'+59176345678' ,'21098765' ,'dalia@gmail.com','Inactivo');
+insert into persona values('Ernesto' ,'Vel squez' ,'+59169786543' ,'7890123' ,'ernesto@gmail.com','Inactivo');
 insert into persona values('Flora' ,'Aguilar' ,'+59175213456' ,'10987654' ,'flora@gmail.com','Activo');
-insert into persona values('Gastón' ,'Alvarado' ,'+59164837291' ,'8901234' ,'gaston@gmail.com','Activo');
+insert into persona values('Gast n' ,'Alvarado' ,'+59164837291' ,'8901234' ,'gaston@gmail.com','Activo');
 insert into persona values('Helena' ,'Arce' ,'+59171345678' ,'98765432' ,'helena@gmail.com','Activo');
-insert into persona values('Iván' ,'Arias' ,'+59168912345' ,'90123456' ,'ivan@gmail.com','Inactivo');
-insert into persona values('Julia' ,'Benítez' ,'+59167483921' ,'1834589' ,'julia@gmail.com','Activo');
-insert into persona values('Kevin' ,'Cáceres' ,'+59176294837' ,'56327801' ,'kevin@gmail.com','iInactivo');
+insert into persona values('Iv n' ,'Arias' ,'+59168912345' ,'90123456' ,'ivan@gmail.com','Inactivo');
+insert into persona values('Julia' ,'Ben tez' ,'+59167483921' ,'1834589' ,'julia@gmail.com','Activo');
+insert into persona values('Kevin' ,'C ceres' ,'+59176294837' ,'56327801' ,'kevin@gmail.com','iInactivo');
 insert into persona values('Laura' ,'Campos' ,'+59163729184' ,'34005613' ,'laura@gmail.com','Activo');
 insert into persona values('Marco' ,'Carvajal' ,'+59172836491' ,'1063459' ,'marco@gmail.com','Activo');
 insert into persona values('Nora' ,'Cordero' ,'+59169485732' ,'59056190' ,'nora@gmail.com','Activo');
-insert into persona values('Óscar' ,'Delgado' ,'+59161293847' ,'2387012' ,'oscar@gmail.com','Inactivo');
-insert into persona values('Patricia' ,'Durán' ,'+59174321658' ,'53426970' ,'patricia@gmail.com','Activo');
+insert into persona values(' scar' ,'Delgado' ,'+59161293847' ,'2387012' ,'oscar@gmail.com','Inactivo');
+insert into persona values('Patricia' ,'Dur n' ,'+59174321658' ,'53426970' ,'patricia@gmail.com','Activo');
 insert into persona values('Serguio' ,'Escobar' ,'+59168749321' ,'6923015' ,'serguio@gmail.com','Activo');
 insert into persona values('Rosa' ,'Fuentes' ,'+59165432198' ,'44679033' ,'rosa@gmail.com','Activo');
 insert into persona values('Teresa' ,'Galindo' ,'+59172938475' ,'4589023' ,'teresa@gmail.com','Inactivo');
-insert into persona values('Ulises' ,'Ibáñez' ,'+59169384752' ,'12819234' ,'ulises@gmail.com','Activo');
-insert into persona values('Valeria' ,'León' ,'+59161472583' ,'4516780' ,'valeria@gmail.com','Activo');
+insert into persona values('Ulises' ,'Ib  ez' ,'+59169384752' ,'12819234' ,'ulises@gmail.com','Activo');
+insert into persona values('Valeria' ,'Le n' ,'+59161472583' ,'4516780' ,'valeria@gmail.com','Activo');
 
 SELECT * FROM PERSONA
 
@@ -287,7 +287,7 @@ insert into tipoprod values ('Salsas/Levaduras', 'Activo');
 insert into tipoprod values ('Galletas', 'Activo');
 insert into tipoprod values ('Productos de Uso Personal', 'Activo');
 insert into tipoprod values ('Fideos', 'Activo');
-insert into tipoprod values ('Pañales', 'Activo');
+insert into tipoprod values ('Pa ales', 'Activo');
 insert into tipoprod values ('Helados', 'Activo');
 insert into tipoprod values ('Bebidas Alcolicas', 'Activo');
 insert into tipoprod values ('Te', 'Activo');
@@ -449,13 +449,13 @@ insert into producto values (9,10 , 'Ricoco', '40747016', 43, 'Helado', 'Activo'
 insert into producto values (9,10 , 'Vaquita', '69773983', 35, 'Helado', 'Activo');
 insert into producto values (9,10 , 'Rocky', '38439056', 33, 'Helado', 'Activo');
 insert into producto values (9,10 , 'Ricoco En Cono', '38439056', 13, 'Helado', 'Activo');
-insert into producto values (8, 9, 'Triple Proteccion', '79105595', 31, 'Pañales', 'Activo');
-insert into producto values (8, 9, 'Active Sec', '79105595', 32, 'Pañales', 'Activo');
-insert into producto values (8, 9, 'Natural Care', '83899692', 23, 'Pañales', 'Activo');
-insert into producto values (8, 9, 'Active Sec Pants', '34538069', 34, 'Pañales', 'Activo');
-insert into producto values (10, 13, 'Paceña', '64288017', 10, 'Bebida Alcoholica', 'Activo');
-insert into producto values (10, 13, 'Paceña Centenario', '78936717', 10, 'Bebida Alcoholica', 'Activo');
-insert into producto values (10, 13, 'Taquiña', '29794635', 10, 'Bebida Alcoholica', 'Activo');
+insert into producto values (8, 9, 'Triple Proteccion', '79105595', 31, 'Pa ales', 'Activo');
+insert into producto values (8, 9, 'Active Sec', '79105595', 32, 'Pa ales', 'Activo');
+insert into producto values (8, 9, 'Natural Care', '83899692', 23, 'Pa ales', 'Activo');
+insert into producto values (8, 9, 'Active Sec Pants', '34538069', 34, 'Pa ales', 'Activo');
+insert into producto values (10, 13, 'Pace a', '64288017', 10, 'Bebida Alcoholica', 'Activo');
+insert into producto values (10, 13, 'Pace a Centenario', '78936717', 10, 'Bebida Alcoholica', 'Activo');
+insert into producto values (10, 13, 'Taqui a', '29794635', 10, 'Bebida Alcoholica', 'Activo');
 insert into producto values (10, 13, 'Baltica', '49357272', 10, 'Bebida Alcoholica', 'Activo');
 insert into producto values (11, 15, 'Mix Mate', '86271608', 30, 'Te', 'Activo');
 insert into producto values (11, 15, 'Mix Te', '74513820', 30, 'Te', 'Activo');
@@ -470,7 +470,7 @@ insert into producto values (12, 16, 'Omo Aloe Doypack', '62727784', 20, 'Omo en
 insert into producto values (12, 16, 'Omo Matic Botella', '51771183', 20, 'Deteregente', 'Activo');
 insert into producto values (12, 18, 'Ola Lava Vajilla', '24449118', 20, 'Deteregente', 'Activo');
 insert into producto values (12, 18, 'Ola Suavecito', '90102614', 20, 'Deteregente', 'Activo');
-insert into producto values (12, 18, 'Pastilla de Baño', '21238894', 20, 'Pastillas para Baño', 'Activo');
+insert into producto values (12, 18, 'Pastilla de Ba o', '21238894', 20, 'Pastillas para Ba o', 'Activo');
 insert into producto values (12, 18, 'Ola Aromatic', '84346520', 20, 'Deteregente', 'Activo');
 insert into producto values (12, 18, 'Ola Limpia Vidrios', '72184756', 20, 'Deteregente', 'Activo');
 insert into producto values (12, 18, 'Jabon Liquido', '68472175', 20, 'Jabon Liquido', 'Activo');
