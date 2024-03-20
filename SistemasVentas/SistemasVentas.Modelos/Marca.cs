@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SistemasVentas.Modelos
 {
-    internal class Marca
+    public class Marca
     {
         public int IdMarca { get; set; }
-        public int Nombre { get; set; }
-        public int Estado { get; set; }
+        public string Nombre { get; set; }
+        public string Estado { get; set; }
     }
 }

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SistemasVentas.Modelos
 {
-    internal class Proveedor
+    public class Proveedor
     {
         public int IdProveedor { get; set; }
-        public int Nombre { get; set; }
-        public int Telefono { get; set; }
-        public int Direccion { get; set; }
-        public int Estado { get; set; }
+        public string Nombre { get; set; }
+        public string Telefono { get; set; }
+        public string Direccion { get; set; }
+        public string Estado { get; set; }
     }
 }

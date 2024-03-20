@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace SistemasVentas.Modelos
 {
-    internal class Persona
+    public class Persona
     {
         public int IdPersona { get; set; }
-        public int Nombre { get; set; }
-        public int Apellido { get; set; }
-        public int Telefono { get; set; }
-        public int Ci { get; set; }
-        public DateTime Fecha { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string Telefono { get; set; }
+        public string Ci { get; set; }
+        public string Correo { get; set; }
+        public string Estado { get; set; }
     }
 }

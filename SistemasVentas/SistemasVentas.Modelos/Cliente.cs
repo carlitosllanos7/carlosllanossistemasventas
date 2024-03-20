@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SistemasVentas.Modelos
 {
-    internal class Cliente
+    public class Cliente
     {
         public int IdCliente { get; set; }
         public int IdPersona { get; set; }
-        public int TipoCliente { get; set; }
-        public int CodigoCliente { get; set; }
-        public int Estado { get; set; }
+        public string TipoCliente { get; set; }
+        public string CodigoCliente { get; set; }
+        public string Estado { get; set; }
     }
 }
