@@ -27,7 +27,7 @@ namespace SistemasVentas.VISTA.PersonasVistas
             p.Telefono=textBox3.Text;
             p.Ci = textBox4.Text;
             p.Correo=textBox5.Text;
-
+            
             bss.InsertarPersonaBss(p);
             MessageBox.Show("Se Guardo Correctamente");
         }
